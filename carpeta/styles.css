@@ -1,0 +1,156 @@
+/* Estilo para la línea azul */
+.linea-azul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(4, 4, 108);
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: flex;
+    align-items: center; /* Alinea verticalmente el contenido */
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
+}
+
+.imagen-linea-azul {
+    width: 35px; /* Tamaño deseado para la imagen */
+    height: 35px; /* Tamaño deseado para la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y la línea azul */
+}
+
+.imagen-capellania {
+    width: 35px; /* Tamaño deseado para la imagen de capellania */
+    height: 35px; /* Tamaño deseado para la imagen de capellania */
+    margin-right: 10px; /* Espacio entre la imagen y la línea azul */ 
+}
+
+.imagen-ssg {
+    width: 35px; /* Tamaño deseado para la imagen de capellania */
+    height: 35px; /* Tamaño deseado para la imagen de capellania */
+    margin-right: 10px; /* Espacio entre la imagen y la línea azul */ 
+}
+.imagen-fm {
+    width: 35px; /* Tamaño deseado para la imagen de capellania */
+    height: 35px; /* Tamaño deseado para la imagen de capellania */
+    margin-right: 10px; /* Espacio entre la imagen y la línea azul */ 
+}
+
+.imagen-cite-ico {
+    width: 35px; /* Tamaño deseado para la imagen de capellania */
+    height: 35px; /* Tamaño deseado para la imagen de capellania */
+    margin-right: 10px; /* Espacio entre la imagen y la línea azul */ 
+}
+
+.imagen-fb {
+    width: 35px; /* Tamaño deseado para la imagen de capellania */
+    height: 35px; /* Tamaño deseado para la imagen de capellania */
+    margin-right: 10px; /* Espacio entre la imagen y la línea azul */ 
+}
+
+.imagen-tw {
+    width: 35px; /* Tamaño deseado para la imagen de capellania */
+    height: 35px; /* Tamaño deseado para la imagen de capellania */
+    margin-right: 10px; /* Espacio entre la imagen y la línea azul */ 
+}
+
+.imagen-in {
+    width: 35px; /* Tamaño deseado para la imagen de capellania */
+    height: 35px; /* Tamaño deseado para la imagen de capellania */
+    margin-right: 10px; /* Espacio entre la imagen y la línea azul */ 
+}
+
+.imagen-ig {
+    width: 35px; /* Tamaño deseado para la imagen de capellania */
+    height: 35px; /* Tamaño deseado para la imagen de capellania */
+    margin-right: 10px; /* Espacio entre la imagen y la línea azul */ 
+}
+
+.imagen-gl-h {
+    width: 35px; /* Tamaño deseado para la imagen de capellania */
+    height: 35px; /* Tamaño deseado para la imagen de capellania */
+    margin-right: 10px; /* Espacio entre la imagen y la línea azul */
+}
+.imagen-miumg1 {
+    width: 180px; /* Tamaño deseado para la imagen de capellania */
+    height: 20px; /* Tamaño deseado para la imagen de capellania */
+    margin-right: 10px; /* Espacio entre la imagen y la línea azul */
+    padding: 50px 75px; 
+}
+
+.imagen-umg {
+    position: absolute;
+    top: 8%;
+    left: 46.1%;
+    width: 155px;
+    height: 155px;
+    z-index: 1; /* Colocamos la imagen superpuesta en un nivel superior (mayor que las otras) */
+}
+
+.imagen-virtual {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    width: 530px;
+    height: 150px;
+    z-index: 1; /* Colocamos la imagen superpuesta en un nivel superior (mayor que las otras) */
+}
+.imagen-msteams {
+    position: absolute;
+    top: 5%;
+    left: 35.5%;
+    width: 500px;
+    height: 200px;
+    /*z-index: 2; /* Colocamos la imagen superpuesta en un nivel superior (mayor que las otras) */
+}
+
+.imagen-cita {
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    width: 530px;
+    height: 115px;
+    z-index: 1; /* Colocamos la imagen superpuesta en un nivel superior (mayor que las otras) */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace, sans-serif; /* Aplicar la fuente Courier New al cuerpo del documento */
+}
+
+p {
+    margin: 0;
+    padding: 10px; /* Añade un espacio opcional entre los párrafos */
+}
+
+.botonera, .botonera-dos {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los botones */
+    background-color: rgba(7, 74, 181, 0.796); /* Color extendido en toda la fila */
+    padding: 5px 100px ; /* Espacio alrededor de la botonera (10px arriba/abajo, 20px izquierda/derecha) */
+    margin-bottom: 0.8px; /* Espaciado entre la primera y segunda fila de botones */
+}
+
+.boton {
+    background-color: rgba(7, 74, 181, 0); 
+    color: rgb(254, 254, 254); /* Cambiamos el color del texto a blanco */
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    width: 180px; /* Ancho fijo para todos los botones */
+    text-align: left; /* Alinea el texto a la izquierda */
+    line-height: 1; /* Ajusta la altura de línea para centrar verticalmente */
+    font-size: 17px; /* Tamaño de letra más grande */
+    font-weight: bold; /* Fuente en negrita */
+    font-style: italic; /* Aplicar fuente en cursiva a los botones */
+    white-space: nowrap; /* Evita el salto de línea en el texto */
+}
+
+
+/* Comienza el estilo del contenedor de las dos filas de botones */
+.contenedor-botoneras {
+    margin-top: 40px; /* Espacio igual al grosor de la línea azul */
+}
+/* Fin del estilo del contenedor de las dos filas de botones */
